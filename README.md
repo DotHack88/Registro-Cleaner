@@ -54,18 +54,3 @@ HKEY_CURRENT_USER | Software\Microsoft\Windows\CurrentVersion\Run | nome_valore
   - `threading`
 
 ---
-
-## 🔧 Trasformare in `.exe`
-
-Puoi creare un eseguibile con icona personalizzata usando [PyInstaller](https://pyinstaller.org/):
-
-```bash
-pyinstaller --noconsole --onefile --icon=icon.ico registro_cleaner_gui.py
-
-⚠️ Avvisi
-
-    🛑 L’uso improprio di questo tool può compromettere il sistema operativo.
-
-    🧠 Effettua sempre un backup manuale del registro se non sei sicuro delle modifiche.
-
-    ✔️ Il programma esegue già backup automatici prima di ogni eliminazione.
